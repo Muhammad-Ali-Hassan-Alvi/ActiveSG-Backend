@@ -1,0 +1,25 @@
+{
+  "appFunctions": {
+    "submission-handler": {
+      "file": "functions/submission-handler.js",
+      "secrets": ["FORMSG_WEBHOOK_URI", "FORMSG_SECRET_KEY", "HUBSPOT_ACCESS_TOKEN"]
+    },
+    "google-sync": {
+      "file": "functions/google-sync.js",
+      "secrets": ["GOOGLE_CLIENT_EMAIL", "GOOGLE_PRIVATE_KEY"]
+    },
+    "weather-check": {
+      "file": "functions/weather-check.js",
+      "secrets": ["NEA_API_URL"]
+    },
+    "onemap-proxy": {
+      "file": "functions/onemap-proxy.js",
+      "secrets": ["ONEMAP_TOKEN"]
+    },
+    "recommendation-proxy": {
+      "file": "functions/recommendation-proxy.js",
+      "secrets": ["SEARCHSG_API_KEY", "SEARCHSG_BANNER_ID", "SEARCHSG_ENDPOINT"]
+    }
+  },
+  "runtime": "nodejs18.x"
+}

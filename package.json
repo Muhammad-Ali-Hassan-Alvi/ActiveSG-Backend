@@ -1,0 +1,25 @@
+{
+  "name": "activesg-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hubspot/api-client": "^13.4.0",
+    "@opengovsg/formsg-sdk": "^0.16.1",
+    "axios": "^1.13.4",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "googleapis": "^170.1.0"
+  }
+}
