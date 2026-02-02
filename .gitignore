@@ -1,0 +1,6 @@
+node_modules/
+google-credentials.json
+hubspot.config.yml
+setup_secrets.ps1
+hubspot-serverless/node_modules/
+config.bat
