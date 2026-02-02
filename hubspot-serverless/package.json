@@ -1,0 +1,12 @@
+{
+  "name": "activesg-hubspot-functions",
+  "version": "1.0.0",
+  "description": "Serverless functions for ActiveSG HubSpot integration",
+  "main": "index.js",
+  "dependencies": {
+    "@hubspot/api-client": "^13.4.0",
+    "@opengovsg/formsg-sdk": "^0.16.1",
+    "axios": "^1.13.4",
+    "googleapis": "^170.1.0"
+  }
+}
